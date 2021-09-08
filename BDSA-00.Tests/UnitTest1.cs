@@ -33,9 +33,5 @@ namespace BDSA_00.Tests
         {
             Assert.Equal(expected, Program.IsLeapYear(year));
         }
-        public void Divisible_By_Four_Returns_True()
-        {
-
-        }
     }
 }
