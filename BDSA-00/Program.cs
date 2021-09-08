@@ -6,7 +6,15 @@ namespace BDSA_00
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string input = Console.ReadLine();
+            int year = Convert.ToInt32(input);
+
+            if(IsLeapYear(year))
+            {
+                Console.WriteLine("yay");
+            } else {
+                Console.WriteLine("nay");
+            }
         }
 
         public static bool IsLeapYear(int year)
