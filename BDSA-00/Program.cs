@@ -6,6 +6,7 @@ namespace BDSA_00
     {
         public static void Main(string[] args)
         {
+            Console.Write("Insert a year to see if it is a leap year: ");
             string input = Console.ReadLine();
             int year = Convert.ToInt32(input);
 

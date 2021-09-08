@@ -35,7 +35,7 @@ namespace BDSA_00.Tests
             Program.Main(new string[0]);
             var result = writer.GetStringBuilder().ToString().Trim();
 
-            Assert.Equal(expected, result);
+            Assert.Equal(expected, result.Substring(result.Length - 3));
         }
     }
 }
